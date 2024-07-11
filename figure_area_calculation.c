@@ -15,6 +15,7 @@ int main(void) {
     switch (i)
     {
     case 1:
+        // Cerchio
         puts("Insert the radius:");
         scanf("%f", &x);
         y = 3.14 * x * x;
@@ -22,12 +23,14 @@ int main(void) {
         break;
 
     case 2:
+        // Quadrato
         puts("Insert the side:");
         scanf("%f", &x);
         y = 3.14 * x * x;
         printf("Area quadrate: %f", y);
 
     case 3:
+        // Sfera
         puts("Insert the radius:");
         scanf("%f", &x);
         y = 4 * 3.14 * x * x;
